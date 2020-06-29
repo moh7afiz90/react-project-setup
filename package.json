@@ -1,0 +1,19 @@
+{
+  "name": "react-project-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ReactJS",
+    "prettier",
+    "NPM Scripts",
+    "ESLint",
+    "Parcel",
+    "JavaScript"
+  ],
+  "author": "Mohanad Elhag",
+  "license": "MIT"
+}
