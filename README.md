@@ -50,3 +50,20 @@ npm install -D eslint eslint-config-prettier
 - "lint": "eslint \"src/\*_/_.{js,jsx}\" --quiet"
 
 - Download ESLint (extension)[https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint]via VScode store
+
+* (Parcel)[https://parceljs.org/]
+  Bundler project, it does not need any configuration
+  Trick you can download any package by just importing it
+  and parcel will download it for us
+
+```cmd
+npm install -D parcel-bundler
+```
+
+- in script in package.json add the following script "dev": "parcel src/index.html"
+
+* React & ReactDOM
+
+```cmd
+npm i react react-dom
+```
