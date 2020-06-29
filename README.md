@@ -1,8 +1,8 @@
 ## React Project Boilerplate
 
-# Used Package
+### Used Packages
 
-- [Prettier]('https://prettier.io/')
+- (Prettier)['https://prettier.io/']
   A package the standardized code format
 
 ```cmd
@@ -19,13 +19,13 @@ Prettier configuration in package.json
 
 2. Prettier Setup
 
-- Via VS code download (Prettier-Code Formatter)[https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode#:~:text=Prettier%20Formatter%20for%20Visual%20Studio,account%2C%20wrapping%20code%20when%20necessary.]
+- Via VS code download [Prettier-Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode#:~:text=Prettier%20Formatter%20for%20Visual%20Studio,account%2C%20wrapping%20code%20when%20necessary.)
 
 - Turn on Editor Formate on Save
 - Turn on Require Config
 - Create prettier config file .prettierrc
 
-* (ESLint)[https://eslint.org/]
+* [ESLint](https://eslint.org/)
 
 Concerns with coding style
 
@@ -47,11 +47,15 @@ npm install -D eslint eslint-config-prettier
 2. Package.json config
    inside scripts
 
-- "lint": "eslint \"src/\*_/_.{js,jsx}\" --quiet"
+-
 
-- Download ESLint (extension)[https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint]via VScode store
+```cmd
+"lint": "eslint \"src/\*_/_.{js,jsx}\" --quiet"
+```
 
-* (Parcel)[https://parceljs.org/]
+- Download ESLint [extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) via VScode store
+
+* [Parcel](https://parceljs.org/)
   Bundler project, it does not need any configuration
   Trick you can download any package by just importing it
   and parcel will download it for us
